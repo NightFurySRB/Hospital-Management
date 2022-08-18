@@ -8,7 +8,7 @@
   <body>
       @include('admin.sidebar')
       @include('admin.navbar')
-      @include('admin.body')
+      {{-- @include('admin.body') --}}
     
     <!-- container-scroller -->
     @include('admin.scripts')
