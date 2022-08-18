@@ -80,7 +80,7 @@
       @auth
       @include("user.requestAppointment")
       @include('user.requestTest')
-      @include('user.requestBlood')
+      {{-- @include('user.requestBloodBag') --}}
       @endauth
   @endif
   @include('user.donateBlood')
